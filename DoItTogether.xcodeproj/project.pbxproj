@@ -52,6 +52,7 @@
 		D2B79C60252D553F007837B6 /* TaipeiSansTCBeta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2B79C5D252D553F007837B6 /* TaipeiSansTCBeta-Regular.ttf */; };
 		D2B79C61252D553F007837B6 /* TaipeiSansTCBeta-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2B79C5E252D553F007837B6 /* TaipeiSansTCBeta-Light.ttf */; };
 		D2B79C62252D553F007837B6 /* TaipeiSansTCBeta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2B79C5F252D553F007837B6 /* TaipeiSansTCBeta-Bold.ttf */; };
+		D2E14139254926FD005BA8A4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2E14138254926FD005BA8A4 /* GoogleService-Info.plist */; };
 		D2F61C72252C4F3400D8D717 /* RuiZiYunZiKuXingKaiGB-2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53CCD101252C246C00A1F03F /* RuiZiYunZiKuXingKaiGB-2.ttf */; };
 		FB2077B7252B1573000A2BD9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2077B6252B1573000A2BD9 /* Protocols.swift */; };
 		FB2077BD252C42F2000A2BD9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2077BC252C42F2000A2BD9 /* Extension.swift */; };
@@ -121,6 +122,7 @@
 		D2B79C5D252D553F007837B6 /* TaipeiSansTCBeta-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TaipeiSansTCBeta-Regular.ttf"; sourceTree = "<group>"; };
 		D2B79C5E252D553F007837B6 /* TaipeiSansTCBeta-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TaipeiSansTCBeta-Light.ttf"; sourceTree = "<group>"; };
 		D2B79C5F252D553F007837B6 /* TaipeiSansTCBeta-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TaipeiSansTCBeta-Bold.ttf"; sourceTree = "<group>"; };
+		D2E14138254926FD005BA8A4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FB2077B6252B1573000A2BD9 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		FB2077BC252C42F2000A2BD9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		FB2C0D4C25075D9500C68391 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -193,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				D2B0644A25009FEB00000444 /* .gitattributes */,
-				D23505DD24FCCAAF00F4CC6E /* todolistURLPlus */,
+				D23505DD24FCCAAF00F4CC6E /* DoItTogether */,
 				D23505DC24FCCAAF00F4CC6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -206,7 +208,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D23505DD24FCCAAF00F4CC6E /* todolistURLPlus */ = {
+		D23505DD24FCCAAF00F4CC6E /* DoItTogether */ = {
 			isa = PBXGroup;
 			children = (
 				53CCD0FA252AF21500A1F03F /* myResource */,
@@ -228,8 +230,9 @@
 				D23505E724FCCAB400F4CC6E /* Assets.xcassets */,
 				D23505E924FCCAB400F4CC6E /* LaunchScreen.storyboard */,
 				D23505EC24FCCAB400F4CC6E /* Info.plist */,
+				D2E14138254926FD005BA8A4 /* GoogleService-Info.plist */,
 			);
-			path = todolistURLPlus;
+			path = "\U001bDoItTogether";
 			sourceTree = "<group>";
 		};
 		D2490110250909ED003E9497 /* ModifyPassword */ = {
@@ -434,6 +437,7 @@
 				D23505E824FCCAB400F4CC6E /* Assets.xcassets in Resources */,
 				D2B79C62252D553F007837B6 /* TaipeiSansTCBeta-Bold.ttf in Resources */,
 				53CCD0F9252AF21000A1F03F /* myFont.ttf in Resources */,
+				D2E14139254926FD005BA8A4 /* GoogleService-Info.plist in Resources */,
 				53CCD103252C620900A1F03F /* RuiZiYunZiKuXingKaiGB-2.ttf in Resources */,
 				D2F61C72252C4F3400D8D717 /* RuiZiYunZiKuXingKaiGB-2.ttf in Resources */,
 				D23505E624FCCAAF00F4CC6E /* Main.storyboard in Resources */,
@@ -651,12 +655,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VH4XC348YR;
 				INFOPLIST_FILE = todolistURLPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GoodIdeaIOS.todolistURLPlus.alvin;
+				PRODUCT_BUNDLE_IDENTIFIER = GoodIdeaIOS.DoItTogether.alvin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -672,7 +676,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VH4XC348YR;
 				INFOPLIST_FILE = todolistURLPlus/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
